@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menudo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header></header>
+
+    <main class="main-container">
+        <!--Input Cards-->
+        <section class="input-cards">
+            <!--Ingresar salario-->
+            <div class="add-card">
+                <h2 class="title">Ingrese su salario</h2>
+                <input type="number" id="add-input">
+                <div>
+                    <div>
+                        <input type="checkbox" class="add-checkbox">
+                        <label for="" class="add-label">Añadir asociasión solidarista </label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" class="add-checkbox">
+                        <label for="" class="add-label">Añadir ahorro</label>
+                    </div>
+                </div>
+                <button class="add-btn">Añadir</button>
+            </div>
+            <!--Ingresar gastos fijos-->
+            <div class="add-card">
+                <h2 class="title">Gastos fijos mensuales</h2>
+                <input type="text" id="add-input" placeholder="Descripción">
+                <input type="number" id="add-input" placeholder="Precio en ₡">
+                <button class="add-btn">Añadir</button>
+            </div>
+            <!--Ingresar gastos-->
+            <div class="add-card">
+                <h2 class="title">Gastos</h2>
+                <input type="text" id="add-input" placeholder="Descripción">
+                <input type="number" id="add-input" placeholder="Precio en ₡">
+                <button class="add-btn">Añadir</button>
+            </div>
+        </section>
+        <!--Print Cards-->
+        <section name="print-cards">
+            <h2 class="title">Salario bruto</h2>
+            <div class="print-container"></div>
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin: 0%;
+}
+
+/* Colors */
+:root {
+    --purple: #442f4b;
+    --purple-light: #634a6d;
+    --grey: #d4d5d6;
+}
+
+
+.main-container {
+    display: flex;
+    gap: 20vw;
+}
+
+/* Add cards */
+
+.input-cards {
+    width: 25vw;
+    height: 100vh;
+
+}
+
+.add-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    max-width: 400px;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    gap: 1.5vh;
+}
+
+.title {
+    margin-top: 2vh;
+    font-size: 17px;
+}
+
+.add-label {
+    font-size: 14px;
+}
+
+.add-btn {
+    height: 17%;
+    width: 40%;
+    background-color: var(--purple);
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    transition: 0.1s;
+}
+
+.add-btn:hover {
+    cursor: pointer;
+    height: 18%;
+    width: 41%;
+    background-color: var(--purple-light);
+}
+
+.add-checkbox {
+    cursor: pointer;
+    accent-color: var(--purple-light);
+}
+
+#add-input {
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    height: 30px;
+    width: 80%;
+    text-align: center;
+}
+
+/* Print cards */
+
+.print-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    background-color: black;
+
+}
+
+.print-container {
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    height: 30px;
+    width: 20vw;
+}

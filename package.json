@@ -1,0 +1,24 @@
+{
+  "name": "menudo",
+  "version": "1.0.0",
+  "description": "Finance management app HTML, CSS, JS practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelmdu/menudo.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Samuel M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuelmdu/menudo/issues"
+  },
+  "homepage": "https://github.com/samuelmdu/menudo#readme"
+}
