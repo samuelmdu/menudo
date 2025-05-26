@@ -17,6 +17,14 @@
     gap: 15vw;
 }
 
+@media (max-width: 600px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15vw;
+    }
+}
+
 /* Add cards */
 
 .input-cards {
@@ -37,6 +45,7 @@
     border: 1px solid var(--grey);
     border-radius: 4px;
     gap: 1.5vh;
+
 }
 
 .title {
@@ -88,12 +97,17 @@
 
 .print-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border: 1px solid var(--grey);
     border-radius: 4px;
-    height: 30px;
+    height: 36px;
     width: 100%;
-    margin-top: 0.3vh;
+    margin-top: 0.4vh;
+}
 
+.end-text {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6vh;
 }
